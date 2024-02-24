@@ -1,0 +1,18 @@
+import java.util.*;
+public class CharacterPattern {
+    public static void main(String args[]) {
+        Scanner royalvb = new Scanner(System.in);
+        System.out.println("Enter the number of lines : ");
+        int n = royalvb.nextInt();
+        char ch = 'A';
+        for(int line =1; line <= n; line++) {
+            for(int chars = 1; chars <= line; chars++) {
+                
+                System.out.print(ch);
+                ch++;
+
+            }System.out.println();
+            
+        }
+    }
+}
